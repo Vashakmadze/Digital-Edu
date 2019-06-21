@@ -1,0 +1,414 @@
+/* base classes */
+.display-inline-block{
+    display: inline-block;
+}
+.vertical-middle{
+    vertical-align: middle;
+}
+.vertical-top{
+    vertical-align: top;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.clearfix::before{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+body{
+    font-family: "RobotoRegular";
+}
+/* base classes */
+
+/*  header  */
+.logo{
+    width: 100px;
+}
+.header{
+    padding: 30px 0;
+}
+.nav-ul{
+    text-align: center
+}
+.nav-a{
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 0 15px;
+    color: #3D58A6;
+}
+.nav-a:hover{
+    opacity: 0.5;
+}
+.images{
+    height: 30px;
+    border-right: 3px solid #3D58A6;
+    padding-right: 20px;
+}
+.images-search {
+}
+/* end header */
+/* banner section */
+.banner-section{
+    background-color: #E6E6E6;
+    padding: 30px 0;
+}
+/* end banner section */
+/* video section */
+.video-secttion{
+    background-color: #363E97;
+    padding-bottom: 90px;
+}
+.section-title{
+    line-height: 90px;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.section-title a{
+    text-transform: lowercase;
+}
+.video{
+    width: 570px;
+    height: 320px;
+    background-color: #ffffff;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+
+audio, video{
+    width: 100%;
+}
+/* end video section */
+/* news section */
+.load-more{
+    border: 1px solid #83939B;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 47%;
+    padding: 20px;
+    background-color: #83939B;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.article{
+    margin-bottom: 15px;
+}
+.news-section{
+    background-color: #BDCCD4;
+    padding-bottom: 90px;
+}
+.news-section .section-title{
+    color: #3D58A6;
+}
+.article .article-title{
+    line-height: 60px;
+    background-color: #E6E6E6;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+.article img{
+    display: block;
+}
+.article {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.article:first-child{
+    margin-left: 0;
+}
+.article:nth-child(1),
+.article:nth-child(2),
+.article:nth-child(3),
+.article:nth-child(4){
+    margin-top: 0;
+}
+.article:nth-of-type(4n + 1){
+    margin-left: 0;
+}
+/* end news section */
+/* Feautered Media */
+.article-section {
+    background-color: #E6E6E6;
+}
+.article-section .article-title{
+    font-family: 'RobotoRegular';
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-bottom: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.article-section .article-title a{
+    text-transform: lowercase;
+}
+.feature-arcile{
+    background-color: #F2F2F2;
+    width: 570px;
+    padding: 20px 20px 40px 20px;
+    font-family: "RobotoRegular";
+    margin-bottom: 15px;
+}
+.feature-arcile .feature-article-title{
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: #3D58A6;
+    text-transform: uppercase;
+}
+.feature-arcile:last-child{
+    margin-left: 30px;
+}
+.feature-arcile img{
+    width: 100px;
+}
+.feature-arcile p{
+    width: calc(100% - 100px);
+    padding-left: 60px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* End feautered media */
+/* footer */
+.footer-text{
+    line-height: 60px;
+    font-size: 12pt;
+}
+/* footer end */
+/* typho page section */
+.see-more {
+    font-size: 22pt;
+    color: #363E97;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+.typho-page-div {
+    background-color: #BDCCD4;
+}
+.see-more-second {
+    font-size:22pt;
+    color: white;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+.see-next {
+    font-size: 24px;
+    color: white;
+    line-height: 90px;
+    text-decoration: underline;
+}
+/* typho page section end */
+/* typho page article section */
+
+.typho-page-article {
+    padding-top: 30px;
+}
+.date-block {
+    border: 3px solid #BDCCD4;
+    display: table;
+    padding: 10px;
+}
+.date-block-number {
+    color: #363E97;
+    font-size: 34pt;
+    
+}
+.date-block-month {
+    color: #363E97;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+.artical-typho {
+    padding-top: 30px;
+}
+.header-article-typho {
+    color: #363E97;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.article-image {
+    margin: 30px;
+    margin-left: 0px;
+}
+.article-text {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.article-text-second {
+    margin-bottom: 40px;
+}
+.article-text-third {
+    margin-bottom: 40px;
+}
+/* typho page article section end*/
+/* go back section */
+.go-back {
+    background-color: #BDCCD4;
+}
+.go-back-h {
+    font-size: 24px;
+    color: white;
+    line-height: 90px;
+    text-decoration: underline;
+}
+/* go back section end */
+/* About page About section */
+.about {
+    background-color: #EE4036;
+}
+.about-header {
+    line-height: 90px;
+    color: white;
+    font-family: "robot";
+    font-size: 22pt;
+}
+/* about page about section end */
+/* about page section about us */
+.mission-img {  
+    padding: 60px;   
+    border: 3px solid #EE4036;
+    margin-top: 110px;
+}
+.mission-li-third {
+    margin-top: 10px;
+}
+.mission-text {
+    margin-top: 10px;
+    color: #EE4036;
+    font-family: "RobotoRegular";
+    font-size: 22pt;
+}
+.Vision-img{
+    padding: 105px 70px;   
+    border: 3px solid #EE4036;
+    margin-top: 110px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.Vision-text{
+    margin-top: 10px;
+    color: #EE4036;
+    font-family: "RobotoRegular";
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22pt;
+}
+.Vision-li-third {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.Philosophy-img {
+    padding: 60px;
+    border: 3px solid #EE4036;
+    margin-top: 110px;
+}
+.Philosophy-li-third {
+    margin-top: 10px;
+}
+.Philosophy-text {
+    margin-top: 10px;
+    color: #EE4036;
+    font-size: 22pt;
+}
+.about-us {
+    border-bottom: 3px solid #EE4036;
+    padding-bottom: 40px;
+}
+/* about page section about us end */
+/* about page section team  */
+.team-header {
+    color: #EE4036;
+    font-size: 22pt;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.team-margin {
+    margin-right: 210px;
+    position: relative;
+    text-align: center;
+    margin-bottom:130px;
+}
+.team-margin:last-child {
+    margin-right:0px;
+    position: relative;
+    text-align: center;
+}
+.uppercase {
+    text-transform: uppercase;
+    
+}
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.surname {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(150%, -50%);
+    font-weight: bold;
+}
+/* about page section team end */
+/* contact page map */
+.map {
+    background-color: #D7E0E5;
+}
+.map-embeded {
+    width: 1170px;
+    height: 460px;
+    margin: 30px auto;
+}
+/* contact page map end */
+/* contact page contact */
+.contact {
+    background-color: #363E97;
+}
+.contact-ul {
+    margin-left: 95px;
+    margin-top: 45px;
+    color: white;
+}
+.second-li {
+    margin-bottom: 35px;
+}
+.fourth-li {
+    margin-bottom: 35px;
+}
+input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+/* contact page contact end */
