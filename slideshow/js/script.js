@@ -1,6 +1,7 @@
 var i = 0; // dasawyisi
 	var images = []; // suratebis masibvi
-	var time = 1000; // dro roca surati sheicvleba
+	var next = document.getElementsByClassName('next')
+	var back = document.getElementsByClassName('back')
 
 	// suratebis masivshi shetana
 	images[0] = '1.jpg';
@@ -18,7 +19,17 @@ var i = 0; // dasawyisi
 			i = 0;
 		}
 
-		setTimeout("changeImg()", time);
 	}
 
 	window.onload = changeImg;
+		document.getElementById("myBtn").addEventListener("click", nextImg);
+		function nextImg(){
+			document.slide.src = images[i];
+	
+			if(i < images.length - 1){
+				i++;
+			} else {
+				i = 0;
+			}
+	
+		}
