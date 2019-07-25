@@ -1,0 +1,39 @@
+.article-section {
+    background-color: #E6E6E6;
+}
+.article-section .article-title{
+    font-family: 'RobotoRegular';
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-bottom: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.article-section .article-title a{
+    text-transform: lowercase;
+}
+.feature-arcile{
+    background-color: #F2F2F2;
+    width: 570px;
+    padding: 20px 20px 40px 20px;
+    font-family: "RobotoRegular";
+    margin-bottom: 15px;
+}
+.feature-arcile .feature-article-title{
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: #3D58A6;
+    text-transform: uppercase;
+}
+.feature-arcile:last-child{
+    margin-left: 30px;
+}
+.feature-arcile img{
+    width: 100px;
+}
+.feature-arcile p{
+    width: calc(100% - 100px);
+    padding-left: 60px;
+    font-size: 20px;
+    line-height: 28px;
+}
