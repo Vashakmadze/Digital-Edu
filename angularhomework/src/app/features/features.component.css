@@ -1,0 +1,30 @@
+.main-div {
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.maindiv.first {
+    margin: 30px;
+}
+.header {
+    font-size: 28pt;
+    color: #4c76ff;
+    text-align: center;   
+}
+.div-header {
+    font-size: 17pt;
+    font-weight: bold;
+}
+.maindiv.second {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.div-p {
+    color: #94999e;
+    margin-top: 5px;
+}
+.div {
+    margin: 40px;
+}

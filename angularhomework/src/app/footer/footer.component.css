@@ -1,0 +1,30 @@
+.fullfooter {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.div-h1 {
+    color: #4c76ff;
+    font-size: 27pt;
+}
+.div-p {
+    color: #4c76ff;
+    font-size: 12pt;
+}
+.div-h1-second {
+    color: white;
+    font-size: 27pt;
+}
+.div-p-second {
+    color: white;
+    font-size: 12pt;
+}
+li {
+    color:grey;
+}
+ul {
+    columns: 2;
+}
+.div {
+    margin: 10px;
+}

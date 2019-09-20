@@ -1,0 +1,45 @@
+.image {
+    height: auto;
+    max-width: 100%;
+}
+.conteiner {
+    position: relative;
+}
+.text {
+    color: #4c76ff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+}
+.main-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.fact-div h1 {
+    font-size: 20px;
+    color: white;
+}
+.fact-div {
+    margin-right: 69px;
+}
+.firsth1 {
+    margin-top: 20px;
+}
+.secondh1 {
+    margin-top: 5px;
+}
